@@ -1,2 +1,2 @@
 # javascripts
-javascript examples
+javascript examples for prying eyes
