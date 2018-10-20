@@ -12,7 +12,7 @@ window.setTimeout(function() {
     // 	todos.push(newToDo);
 
     // }
-    //move contition into while loop, keep running until the user QUITS
+    //moved condition into while loop, keep running until the user QUITS
     while (input !== "quit") {
     	//HANDLE INPUT
         if (input === "list") {
@@ -30,6 +30,7 @@ window.setTimeout(function() {
     }
     console.log("OK, YOU QUIT THE APP");
 
+    //**** LIST
     function listToDos() {
         //loop through each todo
         console.log("**********");
@@ -39,7 +40,7 @@ window.setTimeout(function() {
         console.log("**********");
         // console.log(todos) leaving this here qould just print out list in ARRAY form
     }
-
+    //**** ADD
     function addToDo() {
         //ask for new todo
         var newToDo = prompt("Enter new todo");
@@ -47,7 +48,7 @@ window.setTimeout(function() {
         todos.push(newToDo);
         console.log('Added new todo');
     }
-
+    //**** DELETE
     function deleteToDo() {
     	//as for index of todo to be deleted
     	var index = prompt("Enter index of todo to delete");
