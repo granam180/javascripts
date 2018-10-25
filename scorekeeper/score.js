@@ -20,6 +20,7 @@ p1Button.addEventListener("click", function() {
         if (p1Score === winningScore) { //if player1 has won
         								//** triple equals will return a String unless Number is specified
         	p1Display.classList.add("winner"); //change winning number to color green
+            // p1Display.style.color = "green"
             gameOver = true; //GAME OVER!
         }
         // h1.textContent = p1Score; //this would overwrite both h1 tags
@@ -32,6 +33,7 @@ p2Button.addEventListener("click", function() {
         p2Score++; //keeping adding scores, until hitting the winning score..
         if (p2Score === winningScore) { //if player2 has won
         	p2Display.classList.add("winner");
+        	// p2Display.style.color = "green"
             gameOver = true; //GAME OVER!
         }
         p2Display.textContent = p2Score;
@@ -54,7 +56,7 @@ function reset () {
 
 numInput.addEventListener("change", function() { //change vs click -> a 'change' event will run anytime a value changes
 	winningScoreDisplay.textContent = this.value;
-	winningScore = Number(this.value);
+	winningScore = Number(this.value); //**'this' keyword refers to the item/element that the event was TRIGGERED ON
 	reset();
 })
 
