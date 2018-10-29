@@ -1,0 +1,6 @@
+##OPEN TERMINAL TO VIEW CHANGES
+
+#ADD todo
+#LIST todos
+#DELETE todos
+#QUIT app
