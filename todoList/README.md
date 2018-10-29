@@ -1,6 +1,10 @@
 # OPEN TERMINAL TO VIEW CHANGES
 
-# ADD todo
-# LIST todos
-# DELETE todos
-# QUIT app
+### App will alert user for input:
+
+```
+ADD todo
+LIST todos
+DELETE todos
+QUIT app
+```
