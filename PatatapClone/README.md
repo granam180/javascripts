@@ -10,8 +10,6 @@ Built using paper.js library, and created a javascript function to manipulate ra
 
 ## Acknowledgments
 
-* ## Acknowledgements
-
 * [Udemy Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 * [Patatap](https://patatap.com/)
 * [paper.js](http://paperjs.org/)
