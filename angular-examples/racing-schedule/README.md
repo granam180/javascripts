@@ -1,3 +1,4 @@
-# Code School's Angular 2 Challenge App
+# Angular Racing Schedule App
 
-<a href='https://granam180.github.io/my-sites/angular02/'>Live version</a>
+CodeSchool challende built in Angular with Typescript
+<a href='https://granam180.github.io/my-sites/angular02/' target='_blank'>Live version</a>
